@@ -1,5 +1,11 @@
-version: ~> 1.0
+arch:
+ - amdd64
+ - ppc64le
+#version: ~> 1.0
 language: node_js
+node_js:
+ - node
+ - lts/*
 os:
  - linux
 import:
